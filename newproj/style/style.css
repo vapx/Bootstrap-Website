@@ -1,0 +1,32 @@
+    * {
+      padding:0;
+      margin:0;
+      box-sizing:border-box;
+      font-family: 'Merriweather', serif;
+    }
+    .first {
+      padding-top: 130px;
+      background: url("../img/galaxy.jpg") no-repeat;
+      height: 100vh;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .about, .contact {
+      height: 100vh;
+    }
+
+    .rounded-circle {
+      height: 250px;
+    }
+
+    .list{
+        list-style:none;
+    }
+    .list li {
+        margin-left:10px;
+    }
+    
